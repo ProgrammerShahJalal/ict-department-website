@@ -16,7 +16,7 @@ const MobileMenuBar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="md:hidden text-sm">
+    <div className="md:hidden text-sm relative z-50">
       <button
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         className="text-gray-700 focus:outline-none"
@@ -29,7 +29,7 @@ const MobileMenuBar: React.FC = () => {
       </button>
 
       {isMobileMenuOpen && (
-        <nav className="bg-white shadow-lg rounded-md mt-2">
+        <nav className="bg-white shadow-lg rounded-md mt-2 absolute left-0 w-72">
           <ul className="flex flex-col space-y-4 p-4">
             <li>
               <Link

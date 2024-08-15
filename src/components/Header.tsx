@@ -19,14 +19,14 @@ const Header: React.FC = () => {
         {/* Primary Navigation */}
         <nav className="hidden md:flex space-x-8">
           <Link to="/" className="text-gray-700 hover:text-blue-600">
-            <IoHome className="size-6" />
+            <IoHome className="size-5" />
           </Link>
-          <div className="relative">
+          <div className="relative z-50">
             <button
               onClick={() => setIsDropdown1Open(!isDropdown1Open)}
               className="flex items-center text-gray-700 hover:text-blue-600 focus:outline-none tiro-bangla-regular"
             >
-              আমাদের সম্পর্কিত <FaChevronDown className="ml-1" />
+              আমাদের সম্পর্কিত <FaChevronDown className="ml-1 size-2" />
             </button>
             {isDropdown1Open && (
               <div className="flex justify-start items-start py-5 absolute left-0 mt-2 w-auto bg-gray-100 shadow-lg rounded-md">
@@ -133,7 +133,8 @@ const Header: React.FC = () => {
               onClick={() => setIsDropdown2Open(!isDropdown2Open)}
               className="flex items-center text-gray-700 hover:text-blue-600 focus:outline-none tiro-bangla-regular"
             >
-              অধীনস্থ দপ্তর/অফিস/সংস্থা <FaChevronDown className="ml-1" />
+              অধীনস্থ দপ্তর/অফিস/সংস্থা{" "}
+              <FaChevronDown className="ml-1 size-2" />
             </button>
 
             {isDropdown2Open && (
@@ -149,7 +150,7 @@ const Header: React.FC = () => {
               onClick={() => setIsDropdown3Open(!isDropdown3Open)}
               className="flex items-center text-gray-700 hover:text-blue-600 focus:outline-none tiro-bangla-regular"
             >
-              প্রকল্প/কর্মসূচি <FaChevronDown className="ml-1" />
+              প্রকল্প/কর্মসূচি <FaChevronDown className="ml-1 size-2" />
             </button>
             {isDropdown3Open && (
               <div className="flex justify-start items-start py-5 absolute left-0 mt-2 w-auto bg-gray-100 shadow-lg rounded-md">
@@ -190,7 +191,7 @@ const Header: React.FC = () => {
               onClick={() => setIsDropdown4Open(!isDropdown4Open)}
               className="flex items-center text-gray-700 hover:text-blue-600 focus:outline-none tiro-bangla-regular"
             >
-              গ্যালারি <FaChevronDown className="ml-1" />
+              গ্যালারি <FaChevronDown className="ml-1 size-2" />
             </button>
 
             {isDropdown4Open && (
@@ -210,7 +211,7 @@ const Header: React.FC = () => {
               onClick={() => setIsDropdown5Open(!isDropdown5Open)}
               className="flex items-center text-gray-700 hover:text-blue-600 focus:outline-none tiro-bangla-regular"
             >
-              আইন/নীতিমালা <FaChevronDown className="ml-1" />
+              আইন/নীতিমালা <FaChevronDown className="ml-1 size-2" />
             </button>
 
             {isDropdown5Open && (
@@ -235,7 +236,7 @@ const Header: React.FC = () => {
               onClick={() => setIsDropdown6Open(!isDropdown6Open)}
               className="flex items-center text-gray-700 hover:text-blue-600 focus:outline-none tiro-bangla-regular"
             >
-              ই-সেবা <FaChevronDown className="ml-1" />
+              ই-সেবা <FaChevronDown className="ml-1 size-2" />
             </button>
 
             {isDropdown6Open && (
@@ -288,7 +289,7 @@ const Header: React.FC = () => {
               onClick={() => setIsDropdown7Open(!isDropdown7Open)}
               className="flex items-center text-gray-700 hover:text-blue-600 focus:outline-none tiro-bangla-regular"
             >
-              যোগাযোগ ও মতামত <FaChevronDown className="ml-1" />
+              যোগাযোগ ও মতামত <FaChevronDown className="ml-1 size-2" />
             </button>
             {isDropdown7Open && (
               <div className="flex justify-start items-start py-5 absolute left-0 mt-2 w-auto bg-gray-100 shadow-lg rounded-md">
