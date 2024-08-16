@@ -25,7 +25,7 @@ const Box: React.FC = () => {
         { name: "সংবাদ বিজ্ঞপ্তি", url: "#" },
         { name: "দরপত্র/নিয়োগ বিজ্ঞপ্তি", url: "#" },
       ],
-      img: "/src/assets/porip.png",
+      img: "/porip.png",
     },
     {
       title: "  নীতিমালা ও প্রকাশনা",
@@ -35,7 +35,7 @@ const Box: React.FC = () => {
         { name: "প্রকাশনা ও বার্ষিক প্রতিবেদন", url: "#" },
         { name: "বিভিন্ন প্রতিবেদন", url: "#" },
       ],
-      img: "/src/assets/POLICY_PUBLICATION.png",
+      img: "/POLICY_PUBLICATION.png",
     },
     {
       title: "নাগরিক ই-সেবাসমূহ ",
@@ -45,7 +45,7 @@ const Box: React.FC = () => {
         { name: "হাইটেক পার্ক ওয়ান স্টপ সার্ভিস", url: "#" },
         { name: "অন্যান্য ই-সেবা", url: "#" },
       ],
-      img: "/src/assets/ict.png",
+      img: "/ict.png",
     },
     {
       title: " সেবা প্রদান প্রতিশ্রুতি (সিটিজেন্‌স চার্টার)",
@@ -55,7 +55,7 @@ const Box: React.FC = () => {
         { name: "কর্মপরিকল্পনা, পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন", url: "#" },
         { name: "আইন/বিধি/নীতিমালা/পরিপত্র/প্রজ্ঞাপন/পরিপত্র", url: "#" },
       ],
-      img: "/src/assets/Citizen Charter.png",
+      img: "/Citizen Charter.png",
     },
     {
       title: "বার্ষিক কর্মসম্পাদন চুক্তি",
@@ -65,7 +65,7 @@ const Box: React.FC = () => {
         { name: "পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন", url: "#" },
         { name: "এপিএএমএস সফটওয়্যার লিংক", url: "#" },
       ],
-      img: "/src/assets/apa.png",
+      img: "/apa.png",
     },
     {
       title: "জাতীয় শুদ্ধাচার কৌশল",
@@ -78,7 +78,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/nis_logo3.png",
+      img: "/nis_logo3.png",
     },
     {
       title: "অভিযোগ প্রতিকার ব্যবস্থাপনা",
@@ -91,7 +91,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/complain.png",
+      img: "/complain.png",
     },
     {
       title: "  তথ্য অধিকার",
@@ -107,7 +107,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/infocom.png",
+      img: "/infocom.png",
     },
     {
       title: "উদ্ভাবনী কার্যক্রম",
@@ -123,7 +123,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/INNOVATION (1).png",
+      img: "/INNOVATION (1).png",
     },
     {
       title: "সেবা সহজিকরণ",
@@ -139,7 +139,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/SPS-3.png",
+      img: "/SPS-3.png",
     },
     {
       title: "এসডিজি ও উন্নয়ন কর্মপরিকল্পনা",
@@ -155,7 +155,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/FinalLogoSDG.png",
+      img: "/FinalLogoSDG.png",
     },
     {
       title: "বাজেট ও প্রকল্পসমূহ",
@@ -171,7 +171,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/budget.png",
+      img: "/budget.png",
     },
     {
       title: "জাতীয় আইসিটি নীতিমালা ২০১৮",
@@ -187,7 +187,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/ict18.jpeg",
+      img: "/ict18.jpeg",
     },
     {
       title: "বিবিধ",
@@ -199,7 +199,7 @@ const Box: React.FC = () => {
           url: "#",
         },
       ],
-      img: "/src/assets/bibido.png",
+      img: "/bibido.png",
     },
   ];
 
