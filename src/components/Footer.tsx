@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-start space-y-4 md:space-y-0">
           <div>
             <h2 className="text-lg font-bold">সাইটম্যাপ</h2>
-            <ul className="mt-2 space-y-2">
+            <ul className="mt-2 space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:underline">
                   গোপনীয়তার নীতিমালা
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <h2 className="text-lg font-bold">অভ্যন্তরীণ ই-সেবাসমূহ</h2>
-            <ul className="mt-2 space-y-2">
+            <ul className="mt-2 space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:underline">
                   ওয়েব মেইল
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <h2 className="text-lg font-bold">গুরুত্বপূর্ণ লিংক</h2>
-            <ul className="mt-2 space-y-2">
+            <ul className="mt-2 space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:underline">
                   রাষ্ট্রপতির কার্যালয়
@@ -88,7 +88,6 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-6 text-sm text-center text-gray-400">
-          <p>সাইটটি শেষ হাল-নাগাদ করা হয়েছে: ২০২৪-০৮-১৫ ১২:৩৮:৫০</p>
           <p className="mt-2">
             পরিকল্পনা ও বাস্তবায়নে: মন্ত্রিপরিষদ বিভাগ, এটুআই, বিসিসি,
             ডিওআইসিটি ও বেসিস
@@ -101,6 +100,14 @@ const Footer: React.FC = () => {
           >
             Developed by Md Shah Jalal
           </a>
+          <div className="text-center text-sm tiro-bangla-regular">
+            কারিগরি সহায়তায়:{" "}
+            <img
+              className="w-36 mx-auto bg-white p-2 rounded-sm"
+              src="/np-logo-set.png"
+              alt="help desk"
+            />
+          </div>
         </div>
       </div>
     </footer>
