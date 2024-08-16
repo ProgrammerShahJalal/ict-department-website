@@ -47,7 +47,7 @@ const NoticeBoard: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-6 tiro-bangla-regular rounded-lg shadow-lg w-full md:w-2/3 mx-auto">
+    <div className="bg-gray-100 p-6 my-10 tiro-bangla-regular rounded-lg shadow-lg w-full md:w-2/3 mx-auto">
       <h1 className="text-2xl font-bold mb-4 text-center">নোটিশ বোর্ড</h1>
       <div className="space-y-4">
         {notices.map((notice, index) => (

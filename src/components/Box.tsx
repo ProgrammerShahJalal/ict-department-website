@@ -207,7 +207,7 @@ const Box: React.FC = () => {
 
   return (
     <>
-      <div className="tiro-bangla-regular flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-6 p-6">
+      <div className=" my-10 tiro-bangla-regular flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-6 p-6">
         {data.slice(0, itemsToShow).map((box, index) => (
           <div
             style={{
