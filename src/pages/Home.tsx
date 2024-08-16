@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import NoticeBoard from "../components/NoticeBoard";
 import { WobbleCardMain } from "../components/WobbleCard";
 import Box from "./Box";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Hero />
       <WobbleCardMain />
+      <NoticeBoard />
       <Box />
     </div>
   );
