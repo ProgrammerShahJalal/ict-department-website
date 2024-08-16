@@ -14,7 +14,7 @@ const Box: React.FC = () => {
         { name: "কর্মকর্তা/কর্মচারী", url: "#" },
         { name: "কর্মবন্টন", url: "#" },
       ],
-      img: "/src/assets/aboutus2.png",
+      img: "/aboutus2.png",
     },
 
     {
