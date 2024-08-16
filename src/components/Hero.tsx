@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import heroBg from "../assets/bg.png";
-import heroImg from "../assets/ictdbd.png";
+import { Cover } from "./ui/cover";
 
 const Hero = () => {
   return (
@@ -12,17 +12,20 @@ const Hero = () => {
       }}
     >
       <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row items-center gap-x-10">
-        <div className="flex-1 text-center md:text-left p-8">
+        <div className="flex-1 text-center p-8">
           <TextGenerateEffect
-            words="Inspire global change—with ✓ Nahid, ✗ Polok"
-            className="text-center md:text-left text-[40px] md:text-3xl lg:text-6xl"
+            words="প্রতিটি চ্যালেঞ্জ মোকাবেলা করে, আমরা প্রযুক্তি-সচেতন ভবিষ্যতের পথ তৈরি করি।"
+            className="text-center tiro-bangla-regular text-[40px] md:text-3xl lg:text-6xl"
           />
-          <p className="text-lg md:text-xl text-gray-700 mb-6">
-            Independent{" "}
-            <span className="text-purple-600 font-semibold">
+          <h1 className="text-4xl md:text-4xl tiro-bangla-regular lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+            <Cover>বাংলাদেশ ২.০</Cover>
+          </h1>
+          <p className="text-lg md:text-xl text-gray-700 mb-6 tiro-bangla-regular">
+            স্বাধীন{" "}
+            <span className="text-purple-600 tiro-bangla-regular font-semibold">
               Bangladesh 2.0
             </span>{" "}
-            will inspire Gen-Z to lead the world.
+            Gen-Z বিশ্বকে নেতৃত্ব দিতে অনুপ্রাণিত করবে।
           </p>
           <Link
             to="/#"
@@ -30,9 +33,6 @@ const Hero = () => {
           >
             Explore Now
           </Link>
-        </div>
-        <div className="flex-1 mt-10 md:mt-0">
-          <img src={heroImg} alt="ICT BD" className="w-full h-auto" />
         </div>
       </div>
     </section>

@@ -240,7 +240,7 @@ const Header: React.FC = () => {
             </button>
 
             {isDropdown6Open && (
-              <div className=" text-nowrap py-5 cursor-pointer absolute left-0 mt-2 w-auto bg-gray-100 shadow-lg rounded-md">
+              <div className="z-50 text-nowrap py-5 cursor-pointer absolute left-0 mt-2 w-auto bg-gray-100 shadow-lg rounded-md">
                 <li className="block text-sm tiro-bangla-regular px-4 py-2 text-gray-700 hover:bg-blue-100">
                   নৈমিত্তিক ছুটি ব্যবস্থাপনা
                 </li>
