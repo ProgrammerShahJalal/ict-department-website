@@ -43,10 +43,50 @@ const Footer: React.FC = () => {
             <h2 className="text-lg font-bold">
               ওয়েবসাইট দর্শনার্থী [০৬.১১.২০১৯ তারিখ থেকে কার্যকর]
             </h2>
-            <img
-              src="https://www.freevisitorcounters.com/en/counter/render/596768/t/6"
-              alt="visitor counter"
-            />
+            <div className="flex justify-start items-end gap-10">
+              <img
+                src="https://www.freevisitorcounters.com/en/counter/render/596768/t/6"
+                alt="visitor counter"
+              />
+              <div>
+                <h3>সামাজিক যোগাযোগ</h3>
+                <div className="flex justify-center items-center gap-3">
+                  <a
+                    href="https://www.facebook.com/ictdivisionbd/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="size-6"
+                      src="/facebook.png"
+                      alt="facebook icon"
+                    />
+                  </a>
+                  <a
+                    href="https://twitter.com/ictdivision"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="size-6"
+                      src="/twitter.png"
+                      alt="twitter icon"
+                    />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/user/ictdivision/videos"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="size-6"
+                      src="/youtube.png"
+                      alt="youtube icon"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
             <h2 className="text-lg font-bold">অভ্যন্তরীণ ই-সেবাসমূহ</h2>
