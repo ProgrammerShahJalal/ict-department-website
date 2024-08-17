@@ -4,7 +4,7 @@ This is the ICT Ministry Website built with React.js, Tailwind, and TypeScript, 
 
 ## Live Link: https://ict-department-website.vercel.app/
 
-## Project Overview Video 📽️ Link: https://youtu.be/xStVrogNsa4
+## Project Overview Video 📽️ Link: https://youtu.be/JK9d4E49QPA
 
 ## Technologies Used
 
