@@ -274,6 +274,23 @@ const MobileMenuBar: React.FC = () => {
               )}
             </li>
           </ul>
+          <div className="flex justify-center items-center gap-4 my-5">
+            <img
+              className="w-8 cursor-pointer"
+              src="/comment.gif"
+              alt="Comment"
+            />
+            <img
+              className="w-8 cursor-pointer"
+              src="/acesibility.svg"
+              alt="Accessibility"
+            />
+            <img
+              className="w-8 cursor-pointer"
+              src="/poll-icon.gif"
+              alt="Poll"
+            />
+          </div>
         </nav>
       )}
     </div>

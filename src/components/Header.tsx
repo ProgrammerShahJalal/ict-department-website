@@ -319,9 +319,21 @@ const Header: React.FC = () => {
             )}
           </div>
           <div className="flex justify-center items-center gap-4">
-            <img className="w-8" src="/comment.gif" alt="Comment" />
-            <img className="w-8" src="/acesibility.svg" alt="Accessibility" />
-            <img className="w-8" src="/poll-icon.gif" alt="Poll" />
+            <img
+              className="w-8 cursor-pointer"
+              src="/comment.gif"
+              alt="Comment"
+            />
+            <img
+              className="w-8 cursor-pointer"
+              src="/acesibility.svg"
+              alt="Accessibility"
+            />
+            <img
+              className="w-8 cursor-pointer"
+              src="/poll-icon.gif"
+              alt="Poll"
+            />
           </div>
         </nav>
 
