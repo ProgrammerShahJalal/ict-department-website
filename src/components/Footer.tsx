@@ -2,8 +2,17 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 tiro-bangla-regular text-white p-6 mt-10">
-      <div className="container mx-auto">
+    <footer>
+      {" "}
+      <div
+        style={{
+          backgroundImage: `url(${"/footer_top_bg.png"})`,
+          backgroundSize: "cover",
+          height: "100px",
+        }}
+        className="w-full"
+      ></div>
+      <div className=" mx-auto bg-gray-800 tiro-bangla-regular text-white p-6">
         <div className="flex flex-col md:flex-row justify-between items-start space-y-4 md:space-y-0">
           <div>
             <h2 className="text-lg font-bold">সাইটম্যাপ</h2>
@@ -31,6 +40,9 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           <div>
+            <h2 className="text-lg font-bold">
+              ওয়েবসাইট দর্শনার্থী [০৬.১১.২০১৯ তারিখ থেকে কার্যকর]
+            </h2>
             <img
               src="https://www.freevisitorcounters.com/en/counter/render/596768/t/6"
               alt="visitor counter"
