@@ -23,8 +23,13 @@ const YouTubePlayer: React.FC<MyComponentProps> = (videoId) => {
   console.log("videoId", videoId);
 
   return (
-    <div className="youtube-player border-2 border-dashed border-red-500 rounded-md">
-      <YouTube videoId={videoId?.videoId} opts={opts} onReady={onReady} />
+    <div className="youtube-player">
+      <YouTube
+        className="border-2 border-dashed border-red-500 rounded-md"
+        videoId={videoId?.videoId}
+        opts={opts}
+        onReady={onReady}
+      />
     </div>
   );
 };

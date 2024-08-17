@@ -318,6 +318,11 @@ const Header: React.FC = () => {
               </div>
             )}
           </div>
+          <div className="flex justify-center items-center gap-4">
+            <img className="w-8" src="/comment.gif" alt="Comment" />
+            <img className="w-8" src="/acesibility.svg" alt="Accessibility" />
+            <img className="w-8" src="/poll-icon.gif" alt="Poll" />
+          </div>
         </nav>
 
         {/* Mobile Menu */}

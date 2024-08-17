@@ -2,7 +2,7 @@ import YouTubePlayer from "./YouTubePlayer";
 
 const Info = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 px-20 my-10">
+    <div className="grid grid-cols-3 gap-4 px-20 my-20">
       <div className="col-span-2  text-center">
         <h2 className="tiro-bangla-regular">
           বার্ষিক কর্মসম্পাদন চুক্তি (এপিএ) ২০২০-২০২১ এর চূড়ান্ত মূল্যায়নে তথ্য
@@ -10,16 +10,15 @@ const Info = () => {
           <span className="text-2xl text-orange-400">প্রথম স্থান</span> অর্জন{" "}
         </h2>
         <img
-          className="w-9/12 mt-4 mx-auto border-4 border-lime-300"
+          className="w-9/12 mt-4 mx-auto border-4  border-lime-300"
           src="/ICT Division Result.png"
           alt="ICT Division Result"
         />
-        <h2 className="tiro-bangla-regular text-xl my-6">
+        <h2 className="tiro-bangla-regular rounded-md py-1 bg-lime-500 text-xl my-6">
           বন্যার সময় কি করণীয়
         </h2>
-        <div className="grid grid-cols-2 justify-center items-center gap-3">
+        <div className="w-96 mx-auto pt-20 md:pt-5">
           <YouTubePlayer videoId="GT9ShGE_qjg" />
-          <YouTubePlayer videoId="cCZWkMXJwQE" />
         </div>
       </div>
       <div className="">
@@ -37,7 +36,7 @@ const Info = () => {
           জরুরি হটলাইন
         </h4>
         <img
-          className="w-48 mx-auto"
+          className="w-12 md:w-48 mx-auto"
           src="/hotline_v.2_bn.png"
           alt="hotline image"
         />
@@ -48,31 +47,31 @@ const Info = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="w-64 p-2 mx-auto"
+              className="w-44 p-2  mx-auto"
               src="/discount_bn.jpg"
               alt="dicount image"
             />
           </a>
 
           <img
-            className="w-64 p-2 mx-auto"
+            className="w-44 p-2 mx-auto"
             src="/e-directory.jpg"
             alt="e-directory image"
           />
           <img
-            className="w-64 p-2 mx-auto"
+            className="w-44 p-2 mx-auto"
             src="/mygov_logo_bn.jpg"
             alt="mygov_logo_bn"
           />
           <img
-            className="w-64 p-2 mx-auto"
+            className="w-44 p-2 mx-auto"
             src="/internal_eservice_bn.jpg"
             alt="internal e-service"
           />
         </div>
         <div>
           <img
-            className="w-52 mx-auto"
+            className="w-12 md:w-52 mx-auto"
             src="/dengu.jpg"
             alt="dengu fever image"
           />
@@ -82,7 +81,7 @@ const Info = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h4 className="w-24 my-5 md:w-40 mx-auto text-wrap p-2 text-sm rounded-md tiro-bangla-regular text-center bg-green-600 hover:bg-lime-500 text-white">
+          <h4 className="w-24 my-1 md:my-5 md:w-40 mx-auto text-wrap p-2 text-sm rounded-md tiro-bangla-regular text-center bg-green-600 hover:bg-lime-500 text-white">
             কেন্দ্রীয় ই-সেবা
           </h4>
         </a>

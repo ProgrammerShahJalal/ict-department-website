@@ -47,37 +47,39 @@ const NoticeBoard: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-6 my-10 tiro-bangla-regular rounded-lg shadow-lg w-full md:w-2/3 mx-auto">
-      <h1 className="text-2xl font-bold mb-4 text-center">নোটিশ বোর্ড</h1>
-      <div className="space-y-4">
-        {notices.map((notice, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg shadow-md">
-            <div
-              className="flex justify-between items-center cursor-pointer"
-              onClick={() => handleToggle(index)}
-            >
-              <div>
-                <h2 className="text-lg font-semibold">{notice.title}</h2>
-                <p className="text-gray-500">{notice.date}</p>
+    <>
+      <div className="bg-gray-100 p-6 my-10 tiro-bangla-regular rounded-lg shadow-lg w-full md:w-2/3 mx-auto">
+        <h1 className="text-2xl font-bold mb-4 text-center">নোটিশ বোর্ড</h1>
+        <div className="space-y-4">
+          {notices.map((notice, index) => (
+            <div key={index} className="bg-white p-4 rounded-lg shadow-md">
+              <div
+                className="flex justify-between items-center cursor-pointer"
+                onClick={() => handleToggle(index)}
+              >
+                <div>
+                  <h2 className="text-lg font-semibold">{notice.title}</h2>
+                  <p className="text-gray-500">{notice.date}</p>
+                </div>
+                <span className="text-blue-600">
+                  {selectedNotice === index
+                    ? "বিশদ বিবরণ লুকান"
+                    : "বিস্তারিত দেখান"}
+                </span>
               </div>
-              <span className="text-blue-600">
-                {selectedNotice === index
-                  ? "বিশদ বিবরণ লুকান"
-                  : "বিস্তারিত দেখান"}
-              </span>
+              {selectedNotice === index && (
+                <p className="mt-4 text-gray-700">{notice.description}</p>
+              )}
             </div>
-            {selectedNotice === index && (
-              <p className="mt-4 text-gray-700">{notice.description}</p>
-            )}
-          </div>
-        ))}
+          ))}
+        </div>
+        <div className="text-center">
+          <p className=" mt-4 cursor-pointer bg-lime-500 rounded-md p-1 hover:text-white">
+            সমস্ত নোটিশ
+          </p>
+        </div>
       </div>
-      <div className="text-center">
-        <p className=" mt-4 cursor-pointer bg-lime-500 rounded-md p-1 hover:text-white">
-          সমস্ত নোটিশ
-        </p>
-      </div>
-    </div>
+    </>
   );
 };
 
