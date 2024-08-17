@@ -1,6 +1,4 @@
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
-import advisorImg from "../assets/Honorable Adviser.png";
-import socibImg from "../assets/Honorable Secretary Sir.png";
 
 const content = [
   {
@@ -13,7 +11,7 @@ const content = [
           width={300}
           height={300}
           className="h-full w-full object-contain"
-          src={advisorImg}
+          src="/Honorable Adviser.png"
           alt="Honorable Advisor Image"
         />
       </div>
@@ -26,7 +24,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <img
-          src={socibImg}
+          src="/Honorable Secretary Sir.png"
           width={300}
           height={300}
           className="h-full w-full object-contain"
