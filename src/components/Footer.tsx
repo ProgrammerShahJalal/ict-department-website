@@ -111,6 +111,11 @@ const Footer: React.FC = () => {
                   সিআইআরটি
                 </a>
               </li>
+              <li>
+                <a href="#" className="hover:underline">
+                  সকল লিংক
+                </a>
+              </li>
             </ul>
           </div>
           <div>
@@ -134,6 +139,11 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#" className="hover:underline">
                   বাংলাদেশ কর্মচারী কল্যাণ বোর্ড
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:underline">
+                  সকল লিংক
                 </a>
               </li>
             </ul>

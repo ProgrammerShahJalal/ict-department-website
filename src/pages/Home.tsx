@@ -5,6 +5,7 @@ import { WobbleCardMain } from "../components/WobbleCard";
 import Box from "../components/Box";
 import { CompareMain } from "../components/CompareMain";
 import { LinkPreviewMain } from "../components/LinkPreviewMain";
+import Info from "../components/Info";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Box />
       <MinistryIntro />
       <CompareMain />
+      <Info />
     </div>
   );
 };
