@@ -32,7 +32,7 @@ const Hero = () => {
           </p>
           <Link
             to="/#"
-            className="bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700"
+            className="bg-black text-white py-3 px-6 transition rounded-md hover:bg-violet-500"
           >
             Explore Now
           </Link>

@@ -214,7 +214,7 @@ const Box: React.FC = () => {
               backgroundImage: `url(${heroBg})`,
             }}
             key={index}
-            className="p-6 shadow-lg md:h-64 rounded-lg border-x-4 flex flex-col items-start space-y-4 md:w-1/3 w-full"
+            className="p-6 shadow-lg md:h-64 rounded-lg border-x-4 hover:shadow-lime-500 transition delay-150 duration-300 flex flex-col items-start space-y-4 md:w-1/3 w-full"
           >
             <div className="flex items-center space-x-3">
               <h2 className="text-xl font-bold">{box.title}</h2>
@@ -244,14 +244,14 @@ const Box: React.FC = () => {
         {!showAll ? (
           <button
             onClick={() => setShowAll(true)}
-            className="tiro-bangla-regular bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+            className="tiro-bangla-regular bg-black text-white py-2 px-6 rounded hover:bg-violet-500 transition"
           >
             আরও দেখুন
           </button>
         ) : (
           <button
             onClick={() => setShowAll(false)}
-            className="tiro-bangla-regular bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+            className="tiro-bangla-regular bg-black text-white py-2 px-6 rounded hover:bg-violet-500 transition"
           >
             কম দেখুন
           </button>
